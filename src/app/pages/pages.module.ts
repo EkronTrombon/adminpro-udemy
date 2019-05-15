@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { SharedModule } from '../shared/shared.module';
+import { FormsModule } from '@angular/forms';
+import { ChartsModule } from 'ng2-charts';
 
 // Routes
 import { PAGES_ROUTES } from './pages.routes';
@@ -10,12 +12,18 @@ import { ProgressComponent } from './progress/progress.component';
 import { Graficas1Component } from './graficas1/graficas1.component';
 import { PagesComponent } from './pages.component';
 
+// Temporal component 'incrementador' y 'donught'
+import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
+import { DonughtComponent } from '../components/donught/donught.component';
+
 @NgModule({
     declarations: [
         PagesComponent,
         DashboardComponent,
         ProgressComponent,
-        Graficas1Component
+        Graficas1Component,
+        IncrementadorComponent,
+        DonughtComponent
     ],
     exports: [
         PagesComponent,
@@ -25,7 +33,9 @@ import { PagesComponent } from './pages.component';
     ],
     imports: [
         SharedModule,
-        PAGES_ROUTES
+        PAGES_ROUTES,
+        FormsModule,
+        ChartsModule
     ]
 })
 export class PagesModule {}
