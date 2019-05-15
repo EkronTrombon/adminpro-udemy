@@ -11,6 +11,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProgressComponent } from './progress/progress.component';
 import { Graficas1Component } from './graficas1/graficas1.component';
 import { PagesComponent } from './pages.component';
+import { AccountSettingComponent } from './account-setting/account-setting.component';
 
 // Temporal component 'incrementador' y 'donught'
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
@@ -23,7 +24,8 @@ import { DonughtComponent } from '../components/donught/donught.component';
         ProgressComponent,
         Graficas1Component,
         IncrementadorComponent,
-        DonughtComponent
+        DonughtComponent,
+        AccountSettingComponent
     ],
     exports: [
         PagesComponent,
