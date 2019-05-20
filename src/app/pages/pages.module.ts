@@ -15,6 +15,8 @@ import { Graficas1Component } from './graficas1/graficas1.component';
 import { PagesComponent } from './pages.component';
 import { AccountSettingComponent } from './account-setting/account-setting.component';
 import { ProfileComponent } from './profile/profile.component';
+import { UsuariosComponent } from './usuarios/usuarios.component';
+import { ModalUploadComponent } from '../components/modal-upload/modal-upload.component';
 
 // Temporal component 'incrementador' y 'donught'
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
@@ -33,7 +35,9 @@ import { RxjsComponent } from './rxjs/rxjs.component';
         AccountSettingComponent,
         PromesasComponent,
         RxjsComponent,
-        ProfileComponent
+        ProfileComponent,
+        UsuariosComponent,
+        ModalUploadComponent
     ],
     exports: [
         PagesComponent,
