@@ -17,6 +17,9 @@ import { AccountSettingComponent } from './account-setting/account-setting.compo
 import { ProfileComponent } from './profile/profile.component';
 import { UsuariosComponent } from './usuarios/usuarios.component';
 import { ModalUploadComponent } from '../components/modal-upload/modal-upload.component';
+import { HospitalesComponent } from './hospitales/hospitales.component';
+import { MedicosComponent } from './medicos/medicos.component';
+import { MedicoComponent } from './medicos/medico.component';
 
 // Temporal component 'incrementador' y 'donught'
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
@@ -37,7 +40,10 @@ import { RxjsComponent } from './rxjs/rxjs.component';
         RxjsComponent,
         ProfileComponent,
         UsuariosComponent,
-        ModalUploadComponent
+        ModalUploadComponent,
+        HospitalesComponent,
+        MedicosComponent,
+        MedicoComponent
     ],
     exports: [
         PagesComponent,
