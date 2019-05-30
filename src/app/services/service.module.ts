@@ -8,6 +8,7 @@ import { SettingsService,
          MedicoService,
          LoginGuardGuard,
          AdminGuard,
+         VerificaTokenGuard,
          SubirArchivoService } from 'src/app/services/service.index';
 import { HttpClientModule } from '@angular/common/http';
 import { ModalUploadService } from '../components/modal-upload/modal-upload.service';
@@ -30,7 +31,8 @@ import { ModalUploadService } from '../components/modal-upload/modal-upload.serv
     HospitalService,
     MedicoService,
     LoginGuardGuard,
-    AdminGuard
+    AdminGuard,
+    VerificaTokenGuard
   ]
 })
 export class ServiceModule { }
